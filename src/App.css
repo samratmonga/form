@@ -1,0 +1,78 @@
+
+@import './components/Signup.css';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,::after,::before{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+font-family: var(--bs-font-sans-serif);
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+background-color: #fff;
+}
+@media(max-width:1200px){
+  .login-box{
+      width: 100%;
+  }
+}
+@media (max-width:992px){
+  .bg-img{
+      display: none;
+  }
+  .login::before{
+      display: none;
+  }
+}
+
+
+@media (max-width:768px){
+  .bg-img{
+      display: none;
+  }
+}
+@media (max-width:400px){
+  .form-box .form-control {
+      padding: 14.5px 45px 14.5px 20px;
+      width: 300px;
+      border-radius: 51px;
+      margin-top: 28px;
+      /* width: 100% !important; */
+      width: 100%;
+      position: relative;
+  }
+  .icon-input {
+      position: absolute;
+      top: 16px;
+      right: 30px;
+      font-size: 20px;
+      color: #535353;
+  }
+  .btn.btn-register {
+      width: 320px;
+      /* padding: 24px; */
+      background-color: #ff0000;
+      border-radius: 50px;
+      text-align: center;
+      padding: 14.5px 45px 14.5px 20px;
+      margin-top: 20px;
+  }
+}
+@keyframes Gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
