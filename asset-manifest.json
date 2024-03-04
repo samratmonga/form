@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/samratmonga/form/static/css/main.40602ef1.css",
+    "main.js": "/samratmonga/form/static/js/main.35e320b0.js",
+    "static/js/787.d63ef48f.chunk.js": "/samratmonga/form/static/js/787.d63ef48f.chunk.js",
+    "index.html": "/samratmonga/form/index.html",
+    "main.40602ef1.css.map": "/samratmonga/form/static/css/main.40602ef1.css.map",
+    "main.35e320b0.js.map": "/samratmonga/form/static/js/main.35e320b0.js.map",
+    "787.d63ef48f.chunk.js.map": "/samratmonga/form/static/js/787.d63ef48f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40602ef1.css",
+    "static/js/main.35e320b0.js"
+  ]
+}
